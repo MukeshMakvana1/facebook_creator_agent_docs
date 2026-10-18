@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "facebook": {
+        "type": "local",
+        "command": [
+          "C:/Users/KRUNAL/Downloads/facebook_creator_agent_docs/.venv/Scripts/python.exe",
+          "-m",
+          "facebook_creator_agent"
+        ],
+        "cwd": ".",
+        "environment": {
+          "FCA_BASE_DIR": "C:/Users/KRUNAL/Downloads/facebook_creator_agent_docs"
+        }
+      }
+    }
+  }
+}

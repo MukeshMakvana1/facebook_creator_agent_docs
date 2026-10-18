@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Local runtime data
+workspace/
+config.local.json
+
+# Secrets — never commit
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
